@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanshu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="images/20230729_022751.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <b>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </b>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student and Coder</p>
+                <h1>I'm <span>Sudhanshu</span><br>from Bhubaneswar</h1>
+            </div>
+            <div class="header-photo">
+                <img src="images/20230729_022751.png" alt="Your Photo">
+            </div>
+
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Sudhanshu, a passionate individual with a variety of interests and skills. As a student, coder
+                        , and graphic designer, I'm always on the lookout for ways to grow and learn. Currently, I'm pursuing
+                         my education at C.v Raman Global University in Bhubaneswar, Odisha, India, with the goal of building
+                          a fulfilling career that allows me to use my creativity, knowledge, and abilities for the benefit of organizations.
+                        I absolutely love coding, and as a Computer Science Engineering student, it's no surprise! Solving 
+                        problems and overcoming challenges is where I thrive. I find joy in web development, Android Studio, 
+                        and programming in Java. Taking part in competitive programming events, like the SOH Finals, is a 
+                        great way for me to showcase my problem-solving skills.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')"> <b>Skills</b></p>
+                        <p class="tab-links" onclick="openTab('experience')"><b>Experience</b></p>
+                        <p class="tab-links" onclick="openTab('education')"><b>Education</b></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> <b>Problem-Solver</span></b><br>Java DSA Good Problem-Solver</li>
+                            <li><span><b>Web Development</span></b><br>Web application Development</li>
+                            <li><span><b>App Development</span></b><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <b>
+                            <li><span>2021 - Current</span><br>Web app Development </li>
+                            <li><span>2023-2023</span><br>Internship at Camplin</li>
+                            <li><span>2020-2021</span><br>Internship at Crypto Edutech</li>
+                            <li><span>2019-2020</span><br>Internship at AAGAJ</li>
+                        </b>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2025</span><br>B.Tech from C.v Raman Global University Bhubaneswar</li>
+                            <li><span>2023 App Development</span><br>App Development from AAGAJ</li>
+                            <li><span>2021 Web Development</span><br>Web Development from Crypto Edutech</li>
+                            <li><span>2019-2022</span><br>Diploma from Goverment Polytechnic Darbhanga</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>App Development Creating software applications for various devices, like smartphones 
+                        or computers, to solve specific user needs or problems.</p>
+                        <a href="https://developer.android.com/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development Creating websites or apps using code (HTML, CSS, JS) to build and style content,
+                    enabling user interaction.</p>
+                    <a href="https://developers.google.com/web">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Problem Solver</h2>
+                    <p>A problem solver is someone who finds solutions to challenges using creativity and logic, 
+                    resolving issues effectively and efficiently.</p>
+                    <a href="https://github.com/Sudhaanshuu?tab=repositories">Learn more</a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>K-Map Solver</h2>
+                        <p>K-map solver website simplifies Boolean algebra expressions using Karnaugh maps, 
+                            aiding digital circuit designers in optimizing logic functions easily.</p>
+                        <a href="https://sudhaanshuu-kmap-solver-39f4wp.streamlit.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Weather Check</h2>
+                        <p>A weather check website provides current weather conditions and forecasts for 
+                            different locations, helping users plan accordingly.</p>
+                            <a href="https://sudhanshu-weather.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png" alt="">
+                        <div class="layer">
+                            <h2>Tinder Lite</h2>
+                            <p>Tinder Lite website is a simplified version of Tinder, optimized for
+                                 faster loading and lower data usage on mobile devices.</p>
+                            <a href="https://sudhaanshuu-tinder-lite-5ffrdx.streamlit.app/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+            </div>
+            <a href="https://github.com/Sudhaanshuu?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> Sudhaanshuu@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 8252228793</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bhubaneswar,Odisha</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100029277134017"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/Misudhanshuu"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/sudhan.shuu/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sudhanshuu"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1ntyh_eFwvJImVtYrCXxwDR59DCfe-uwr/view?usp=sharing" download class="btn btn2">My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/xknlonay" method="POST">
+                      <input type="text" name="Name" placeholder="Your Name" required>
+                      <input type="email" name="_replyto" placeholder="Your Email" required>
+                      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                      <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                  </div>
+                  
+            </div>
+        </div>
+        <div class="copyright">
+            <div><a href="https://www.instagram.com/sudhan.shuu/"> <h2>Sudhanshu Kumar</h2></a></div>
+            <div class="text-center text-muted">
+              <p>&copy; All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+
+</body>
+
+</html>
